@@ -1,6 +1,4 @@
-<script setup>
-import { Icon } from "@iconify/vue";
-</script>
+<script setup></script>
 <template>
   <div class="flex justify-center">
     <div class="w-80">
