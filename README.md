@@ -1,2 +1,2 @@
-# MonetaVerse
+# Monetaverse
 
