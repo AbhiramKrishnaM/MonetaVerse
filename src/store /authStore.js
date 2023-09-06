@@ -4,11 +4,13 @@ import { ref } from "vue";
 export const useAuthStore = defineStore("authStore", () => {
   const user = ref({});
 
-  function login() {}
+  function signup({ username, password }) {}
+
+  function login({ username, password }) {}
 
   function logout() {}
 
   function enable2Factor() {}
 
-  return { user, login, logout, enable2Factor };
+  return { user, signup, login, logout, enable2Factor };
 });
